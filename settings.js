@@ -11,11 +11,11 @@ const FOOTERNAME = '> ＶＡＪＩＲＡ -  ＭＤ - Ｖ4';
 global.owner = process.env.OWNER_NUMBER  || '' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=3RECDTZb#wJtEamZDbD2ydCciDjwTwwTTtqTRSR8Bz-nVRFWjP2w' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=TRM1ibbA#afwtp-yXlowEw4DlfAPiGKWVgBl8uprm6J8L1i9z68A' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
 MODERATORS : process.env.MODERATORS === undefined ? "" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
-OWNER_NAME: process.env.OWNER_NAME || 'VAJIRA' ,
+OWNER_NAME: process.env.OWNER_NAME || 'Sudhanshu Srivastava' ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
 LOGO: process.env.LOGO || `https://telegra.ph/file/ab0ea6ad90e2eb98090d9.jpg` ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,
@@ -45,5 +45,5 @@ AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
 AUTO_STICKER: process.env.AUTO_STICKER || false  ,
 WELCOME:  process.env.WELCOME  || false ,
 ANTI_DELETE : process.env.ANTI_DELETE || false ,
-DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO    
+DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? 'null' : process.env.DELETEMSGSENDTO    
 };
